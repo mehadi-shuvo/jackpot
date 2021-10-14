@@ -1,0 +1,496 @@
+@media (min-width: 768px) and (max-width: 991px){
+    /* navbar media starts */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    nav .navbar-bars{
+        color: #c816a6;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        background-color: rgba(0,0, 0, 0.7);
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .btn {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin-top: 70px;
+    }
+    /* navbar media ends */
+
+
+    /* banner media starts */
+    #banner .text-content h5 {
+        font-size: 17px;
+        padding-top: 190px;
+    }
+
+    #banner .text-content h1{
+        font-size: 190px;
+        line-height: 190px;
+    }
+
+    #banner .text-content p {
+        font-size: 14px;
+        font-weight: 300;
+        padding-right: 21px;
+    }
+
+    #banner .text-content a {
+        font-size: 18px;
+        line-height: 46px;
+        padding: 0 28px !important;
+    }    
+    /* banner media ends */
+
+    /* free spin media strats */
+    #spin{
+        padding-top: 30px;
+    }
+    #spin .content-text{
+        text-align: center;
+    }
+
+    #spin .content-text p:first-of-type {
+        padding-top: 40px;
+    }
+    #spin .content-text p:nth-of-type(2) {
+        padding-top: 30px;
+    }
+    #spin .content-text a {
+        margin-top: 30px;
+    }
+
+    #spin .card-bg {
+        display: flex;
+        justify-content: center;
+    }
+
+    #spin .card-bg img:nth-of-type(1) {
+        z-index: 1;
+        padding-top: 20px;
+    }
+    #spin .card-bg img:nth-of-type(2) {
+        left: 53px;
+    }
+
+    #spin .card-bg img:nth-of-type(3) {
+        left: 63px;
+        /* opacity: 0; */
+    }
+    /* free spin media ends */
+
+    /* plan spin media starts */
+
+    #plan .pricing-item {
+        padding-top: 30px;
+
+    }
+
+    #plan .pricing-item h6 {
+        font-size: 46px;
+
+    }
+
+    #plan .pricing-item p {
+        font-size: 12px;
+        padding-bottom: 25px;
+    }
+
+    #plan .pricing-item ul li {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    #plan .pricing-item ul li:last-child {
+        padding-bottom: 32px;
+    }
+
+    #plan .pricing-item a {
+        font-size: 9px;
+        line-height: 40px;
+
+    }
+    /* plan spin media ends */
+
+    /* tournament media starts */
+    #live .tournament .padding{
+        padding-top: 30px;
+        display: block;
+    }
+    /* tournament media ends */
+
+    /* subcribetion media starts */
+    #subscribe .payment h6{
+        padding-top: 30px;
+    }
+    /* subcribetion media ends */
+}
+
+/* ====================
+medium device ends
+=================== */
+@media (min-width: 576px) and (max-width: 767px){
+    /* navbar media starts */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    nav .navbar-bars{
+        color: #c816a6;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        background-color: rgba(0,0, 0, 0.7);
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .btn {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin-top: 70px;
+    }
+    /* navbar media ends */
+
+    /* banner medis start */
+    #banner .banner-img {
+        padding-top: 96px;
+        transform: scale(.9);
+    }
+
+    #banner .text-content{
+        text-align: center !important;
+    }
+
+    #banner .text-content h5 {
+        padding-top: 30px;
+        text-align: center
+        
+    }
+
+    #banner .text-content p {
+        font-size: 15px;
+    }
+
+    /* banner medis ends */
+
+    /* game medis starts */
+
+    #games .games-item .g-banner .overlay h5 {
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    
+    #games .games-item .g-banner .overlay a {
+        font-size: 18px;
+        line-height: 44px;
+        padding: 0 24px !important;
+        margin-top: 35px;
+    }
+    /* game medis ends */
+
+    /* free spin medis starts */
+    #spin{
+        padding-top: 30px;
+    }
+    #spin .content-text{
+        text-align: center;
+    }
+
+    #spin .content-text p:first-of-type {
+        padding-top: 40px;
+    }
+    #spin .content-text p:nth-of-type(2) {
+        padding-top: 30px;
+    }
+    #spin .content-text a {
+        margin-top: 30px;
+    }
+
+    #spin .card-bg {
+        display: flex;
+        justify-content: center;
+    }
+
+    #spin .card-bg img:nth-of-type(1) {
+        z-index: 1;
+        padding-top: 20px;
+    }
+    #spin .card-bg img:nth-of-type(2) {
+        left: 53px;
+    }
+
+    #spin .card-bg img:nth-of-type(3) {
+        left: 63px;
+        /* opacity: 0; */
+    }
+    /* free spin medis ends */
+
+    /* plan media starts */
+    #plan .pricing-item {
+        padding-top: 30px;
+
+    }
+
+    #plan .pricing-item h6 {
+        font-size: 46px;
+
+    }
+
+    #plan .pricing-item p {
+        font-size: 12px;
+        padding-bottom: 25px;
+    }
+
+    #plan .pricing-item ul li {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    #plan .pricing-item ul li:last-child {
+        padding-bottom: 32px;
+    }
+    /* plan media ends */
+
+     /* subcribetion media starts */
+     #subscribe .payment h6{
+        padding-top: 30px;
+    }
+    /* subcribetion media ends */
+
+    /* tournament media starts */
+    #live .tournament .padding{
+        padding-top: 30px;
+        display: block;
+    }
+    /* tournament media ends */
+
+     /* footer */
+     footer .security {
+        padding-top: 30px;
+    }
+
+
+    .back-to-top {
+        right: 0px;
+        transform: scale(.6);
+    }
+
+}
+
+
+
+
+
+/* ====================
+small device ends
+=================== */
+
+@media (max-width: 575px){
+
+    /* navbar media starts */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    nav .navbar-bars{
+        color: #c816a6;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        background-color: rgba(0,0, 0, 0.7);
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .btn {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin-top: 70px;
+    }
+    /* navbar media ends */
+
+    /* banner media starts */
+    #banner .banner-img {
+        padding-top: 125px;
+    }
+
+    #banner .text-content{
+        text-align: center !important;
+    }
+
+    #banner .text-content h5 {
+        padding-top: 30px;
+        text-align: center !important;
+    }
+    #banner .text-content h1{
+        font-size: 170px;
+        line-height: 168px;
+    }
+
+    #banner .text-content p {
+        font-size: 12px;
+        padding: 0px 12px;
+    }
+
+    #banner .text-content a {
+        line-height: 46px;
+        padding: 0 24px !important;
+    }    
+    /* banner media ends */
+    
+
+    /* game media starts */
+    #games .games-item .g-banner .overlay h5 {
+        margin-top: 96px;
+    }
+
+    #games .games-item .g-banner .overlay a{
+        line-height: 46px;
+        padding: 0 26px !important;
+    }
+    /* game media ends */
+
+    /* free spin medis starts */
+    #spin{
+        padding-top: 30px;
+    }
+    #spin .content-text{
+        text-align: center;
+    }
+
+    #spin .content-text h4{
+        font-size: 40px;
+    }
+
+    #spin .content-text p{
+        font-size: 12px;
+    }
+
+    #spin .content-text p:first-of-type {
+        padding-top: 40px;
+    }
+    #spin .content-text p:nth-of-type(2) {
+        padding-top: 10px;
+    }
+    #spin .content-text a {
+        margin-top: 30px;
+    }
+
+    #spin .card-bg {
+        display: flex;
+        justify-content: center;
+    }
+
+    #spin .card-bg img:nth-of-type(1) {
+        z-index: 1;
+        padding-top: 30px;
+    }
+    #spin .card-bg img:nth-of-type(2) {
+        left: 53px;
+    }
+
+    #spin .card-bg img:nth-of-type(3) {
+        left: 63px;
+        /* opacity: 0; */
+    }
+    /* free spin medis ends */
+
+    /* plan media starts */
+    #plan .pricing-item {
+        padding-top: 30px;
+
+    }
+
+    #plan h4 {
+        font-size: 40px;
+
+    }
+
+    #plan .pricing-item h6 {
+        font-size: 46px;
+
+    }
+
+    #plan .pricing-item p {
+        font-size: 12px;
+        padding-bottom: 25px;
+    }
+
+    #plan .pricing-item ul li {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    #plan .pricing-item ul li:last-child {
+        padding-bottom: 32px;
+    }
+
+    #plan .pricing-item a{
+        font-size: 18px;
+    }
+    /* plan media ends */
+
+     /* subcribetion media starts */
+     #subscribe .payment h6{
+        padding-top: 30px;
+    }
+    #subscribe .payment .payment-card a:nth-of-type(4){
+        margin-top: 20px;
+    }
+    /* subcribetion media ends */
+
+    /* tournament media starts */
+    #live .accordion-button {
+        padding-top: 30px;
+    }
+
+    #live .accordion-button {
+        font-size: 16px;
+    }
+
+    #live .tournament .padding{
+        padding-top: 30px;
+        display: block;
+    }
+
+    #countdown #hours, #countdown #minutes, #countdown #seconds {
+        font-size: 12px;
+        padding: 10px 6px;
+        border: 1px solid #fcb100;
+        border-radius: 3px;
+        margin-left: 5px;
+    }
+
+    #live .tournament .timer .text h6 {
+        padding-top: 0px;
+    }
+    /* tournament media ends */
+
+    /* footer */
+    footer .security {
+        padding-top: 30px;
+    }
+
+    .back-to-top {
+        right: 0px;
+        transform: scale(.6);
+    }
+
+}
+
+
+/* ====================
+extra small device ends
+=================== */
+
